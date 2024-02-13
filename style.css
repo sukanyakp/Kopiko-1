@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+header{
+    width: 100%;
+    height: 220PX;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.candy-cofee{
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+   
+}
+.candy-cofee h1{
+    color: #b7b7b7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+.candy-cofee h1:hover{
+    color: tomato;
+}
+.candy-cofee h3{
+    color: #b7b7b7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    
+}
+
+nav{
+    width: 85%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px ;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/maincofee.png);
+    background-size: cover;
+}
+.text-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 250px;
+    padding-top: 150px;
+}
+.text-image h3{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.social-icons{
+    width: 250px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 600px;
+}
+.social-icons:hover{
+    text-decoration: none;
+}
+.footer1{
+    height: 180px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:150px ;
+    color: white;
+    list-style-type: none;
+}
